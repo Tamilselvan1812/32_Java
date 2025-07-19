@@ -9,7 +9,7 @@ public static void main(String[] args)
 {
 
 //    int i;
-//    System.out.println(i);                                // for local variables there is default datatype value
+//    System.out.println(i);                                // for local variables there is no default datatype value
     
 //    SuperMarket product2 = new SuperMarket("xyz",1000);   //object info is given inside ()
 //
@@ -39,7 +39,7 @@ public static void main(String[] args)
 }
 
  void buy(double dd){
-    System.out.println("buy one double args "+dd);        //we can store small datatype inside big datatype
+    System.out.println("buy one double args "+dd);        //we can store small datatype float inside big datatype
 }
  void buy(int no)
 {
