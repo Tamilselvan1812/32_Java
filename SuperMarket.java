@@ -1,8 +1,8 @@
 public class SuperMarket  
 {
 
-static String shopName = "Rajeshwari";                      //class information
-String prodName;                                            //object information and global variable
+static String shopName = "Rajeshwari";                      // class information
+String prodName;                                            // object information and global variable
 int price;
 
 public static void main(String[] args) 
@@ -11,7 +11,7 @@ public static void main(String[] args)
 //    int i;
 //    System.out.println(i);                                // for local variables there is no default datatype value
     
-//    SuperMarket product2 = new SuperMarket("xyz",1000);   //object info is given inside ()
+//    SuperMarket product2 = new SuperMarket("xyz",1000);   // object info is given inside ()
 //
 //    System.out.println(product1.prodName) ;               // it will print default values of string and int
 //    System.out.println(product1.price) ; 
@@ -29,7 +29,7 @@ public static void main(String[] args)
   product1.buy(10.5);
   product1.buy(10.5f);
 
-  System.out.println(10);        // all datatypes can be printed using println method 
+  System.out.println(10);                 // all datatypes can be printed using println method 
   System.out.println(10.5f); 
   System.out.println("hii"); 
 
@@ -39,7 +39,7 @@ public static void main(String[] args)
 }
 
  void buy(double dd){
-    System.out.println("buy one double args "+dd);        //we can store small datatype float inside big datatype
+    System.out.println("buy one double args "+dd);        // we can store small datatype float inside big datatype
 }
  void buy(int no)
 {
