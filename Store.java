@@ -10,6 +10,12 @@ public Store(String s,int x)                       //constructor - default,argum
   price = x;                                       //used for initializing object specific values(non static)
 }                                                  //if argument is passed - argument constructor
 
+
+public Store()
+{
+                                                  // zero argument constructor
+}
+
 public static void main(String[] args)
 {
 
@@ -22,7 +28,8 @@ public static void main(String[] args)
  Store prod2 = new Store("xyz",1000);            //object 2
  System.out.println(prod2.prodName);
  System.out.println(prod2.price);
-
+ 
+ Store prod3 = new Store();                      //object 3
  
 }
 
