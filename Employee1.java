@@ -3,7 +3,7 @@ public class Employee1 implements OfficeRules         // the interface must be "
 
 public void comeOnTime()
 {
-  System.out.println("10am");                      // On implementation of an interface, you must override all of its methods
+  System.out.println("10am");                        // On implementation of an interface, you must override all of its methods
 }
 
 public void getSalary()
