@@ -13,6 +13,12 @@ public class MyScanner
         System.out.print("Enter no2: ");
         int no2 = scanner.nextInt();
 
+        int sum = no1 + no2;
+        System.out.println("Addition (no1 + no2): " + sum);
+
+        int product = no1 * no2;
+        System.out.println("Multiplication (no1 * no2): " + product);
+
    try
         {
             int result = no1 / no2;
