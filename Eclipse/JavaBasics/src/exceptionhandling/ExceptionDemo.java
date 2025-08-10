@@ -8,9 +8,9 @@ public class ExceptionDemo {
 		  
          
           Scanner scanner = new Scanner(System.in);
-          System.out.println("Enter no 1");
+          System.out.println("Enter no1");
           int no1 = scanner.nextInt();
-          System.out.println("Enter no 2");
+          System.out.println("Enter no2");
           int no2 = scanner.nextInt();
          
           
@@ -19,7 +19,7 @@ public class ExceptionDemo {
 		 int no = no1/no2;
          System.out.println("Division of two numbers" + no);
 	}
-	catch(ArithmeticException e)
+	catch(Exception e)
 	{
 		 System.out.println("Error: no2 should not be zero.");
 	}
