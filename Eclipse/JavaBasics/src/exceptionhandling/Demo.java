@@ -1,22 +1,34 @@
 package exceptionhandling;
 
-
+import java.util.Scanner;
+class NotValidException extends Exception
+{
+	public NotValidException(String s) {
+		super(s);
+	}
+	}
 public class Demo {
 
 	public static void main(String[] args) {
 		   
-		   
-		 int n1=10;
-		 int n2=0;
+		Scanner scan = new Scanner(System.in);
 		 
 		 try {
-		      int n =  n1/n2;
+		      int age = scan.nextInt();	
+		      if(age<18)
+		      {
+		    	  throw new NotValidException("age should be 18");
+		      }
+		 }
+		 catch(NotValidException e)
+		 {
+			 System.out.println(e);
 		 }
 		 catch(Exception e)
 		 {
-			System.out.println("hi"); 
+			System.out.println(e); 
 		 }
-
+     
 	}
 
 }
