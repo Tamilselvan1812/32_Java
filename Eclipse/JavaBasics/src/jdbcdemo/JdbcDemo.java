@@ -12,8 +12,8 @@ public class JdbcDemo {
         	  String url = "jdbc:mysql://localhost:3306/jdbcforyoutube";
         	  String username="root";
         	  String password = "Kts@1812";
-        	  Connection con = DriverManager.getConnection(url,username,password);               //3.establish a connection 
-              Statement st = con.createStatement();                                              //4.create the statement(statement,prepared statement, callablestatement)
+        	  Connection con = DriverManager.getConnection(url,username,password);              //3.establish a connection 
+              Statement st = con.createStatement();                                             //4.create the statement(statement,prepared statement, callablestatement)
               
               String sql = "select * from student ";      
               
@@ -26,7 +26,7 @@ public class JdbcDemo {
               
              
               
-              con.close();                                                                                   //7.close the connection
+              con.close();                                                                      //7.close the connection
               
              
 			 
