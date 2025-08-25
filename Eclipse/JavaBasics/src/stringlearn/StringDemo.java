@@ -18,8 +18,8 @@ public class StringDemo {
         String s1 = "abc";                    // == vs .equals()
         String s2 = "abc";
         String s3 = new String("abc");
-        System.out.println(s1 == s2);         // true  (same SCP reference)
-        System.out.println(s1 == s3);         // false (heap vs SCP)
+        System.out.println(s1 == s2);         // true (same SCP reference)
+        System.out.println(s1 == s3);         // false(heap vs SCP)
         System.out.println(s1.equals(s3));    // true (content check)
 
         
