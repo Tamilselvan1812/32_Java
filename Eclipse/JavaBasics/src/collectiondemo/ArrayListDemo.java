@@ -2,6 +2,7 @@ package collectiondemo;
 
 import java.util.ArrayList;
 
+
 public class ArrayListDemo {
 
 	public static void main(String[] args) {
@@ -25,6 +26,32 @@ public class ArrayListDemo {
 		 
 		
 		 System.out.println(s1.size());         // size()
+		 
+       System.out.println(s1.contains("hii"));  // contains()
+		 
+		 System.out.println(s1.indexOf(20));   // indexof()
+		 
+		 s1.clear();                           // clear()
+		 System.out.println(s1);
+		 
+		 ArrayList s2 = new ArrayList();
+		 
+		 s2.add(1);
+		 s2.add(2);
+		 s2.add(3);
+		 s2.add("Tamil");
+		 System.out.println(s2);
+		 
+		 System.out.println(s2.isEmpty());      // isempty()
+		 
+		 s2.remove(2);
+		 System.out.println(s2);                // remove() with index
+		 
+		Object[] arr =  s2.toArray();           // toArray() - we created s2 with no generics ,so return type is object[]
+		for(Object i : arr)
+		{
+			System.out.print(i+" ");
+		}
 		 
 
 	}
