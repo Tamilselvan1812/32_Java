@@ -2,9 +2,9 @@ package collectiondemo;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 
-public class Mobiles {
+
+public class Mobiles implements Comparable<Mobiles>{
           
 	        String name;
 	        int price;
@@ -37,21 +37,23 @@ public class Mobiles {
 		    
 		    System.out.println(a1);
 		    
-		    Collections.sort(a1, new Comparator<Mobiles>() {
-	            
-	            public int compare(Mobiles m1, Mobiles m2) {
-	                if (m1.price > m2.price) return 1;
-	                else if (m1.price < m2.price) return -1;
-	                else return 0;
-	            }
-	        });
+		    Collections.sort(a1);
+		    System.out.println(a1);
 
-	      
-	        for (Mobiles m : a1) {
-	            System.out.println(m);
-	        }
-		    
-		    
+	      }
+
+	
+	public int compareTo(Mobiles obj) {
+		
+		if(this.price>obj.price)
+		{
+			return 1;
+		}
+		else if(this.price<obj.price)
+		{
+			return -1;
+		}
+		return 0;
 	}
     
 
