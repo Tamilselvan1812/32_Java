@@ -10,7 +10,7 @@ public class UniqueWordCounter {
 		   HashSet<String> h1 = new HashSet<>();
 		   Scanner sc = new Scanner(System.in);
 
-	        System.out.println("Enter a paragraph:  ");
+	        System.out.println("Enter a paragraph: ");
 	        String paragraph = sc.nextLine();
 
 	      
