@@ -8,7 +8,7 @@ public class MapDemo {
 
 	public static void main(String[] args) {
 		  
-		     HashMap<Integer,String> h1 = new HashMap<>();                 // Store items in key-value pairs
+		     HashMap<Integer,String> h1 = new HashMap<>();                // Store items in key-value pairs
 		     h1.put(10, "Tamil");
 		     h1.put(20, "Selvan");
 		     h1.put(30, "kts");
