@@ -8,19 +8,19 @@ public class MapDemo {
 
 	public static void main(String[] args) {
 		  
-		     HashMap<Integer,String> h1 = new HashMap<>();                // Store items in key-value pairs
+		     HashMap<Integer,String> h1 = new HashMap<>();                //Store items in key-value pairs
 		     h1.put(10, "Tamil");
 		     h1.put(20, "Selvan");
 		     h1.put(30, "kts");
 		     System.out.println(h1);
 		     
-             LinkedHashMap<Integer,String> h2 = new LinkedHashMap<>();   // Store items in key-value pairs maintains insertion order     
+             LinkedHashMap<Integer,String> h2 = new LinkedHashMap<>();   //Store items in key-value pairs maintains insertion order     
              h2.put(2, "Selvan");
 		     h2.put(1, "Tamil");
 		     h2.put(3,"kts");
 		     System.out.println(h2);
 		     
-		     TreeMap<Integer,String> h3 = new TreeMap<>();               // store keys in sorted order
+		     TreeMap<Integer,String> h3 = new TreeMap<>();               //store keys in sorted order
 		     h3.put(2, "Selvan");
 		     h3.put(3, "kts");
 		     h3.put(1, "Tamil");
